@@ -1,5 +1,5 @@
-using Compat.Test
-import Compat: undef
+using Test
+include("support/util.jl")
 
 @testset "DummySampleStream Tests" begin
     DEFAULT_SR = 48000
